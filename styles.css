@@ -1,17 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
 *{
     margin: 0px;
     box-sizing: border-box;
     box-shadow: 0px;
-}
-
-nav .navigation{
-    text-decoration: none;
-    color: black;
-    font-size: 1.5em;
-}
-
-nav img{
-    width: 80px;
+    font-family: Nunito, sans-serif;
 }
 
 nav{
@@ -19,4 +12,46 @@ nav{
     justify-content: center;
     align-items: center;
     gap: 20px;
+    border: solid rgb(192, 179, 179) 1px;
+    position: relative;
+    padding: 15px;
+}
+
+.navigation{
+    text-decoration: none;
+    color: black;
+    font-size: 1.2em;
+    font-weight: 900;
+}
+
+.navigation:hover, a span:hover{
+    color: #E31837;
+}
+
+a span{
+    color: rgb(39, 37, 37);
+}
+
+nav img{
+    width: 80px;
+}
+
+.nav1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav5{
+    background-color: #E31837;
+    color: #ffff;
+    width: 200px;
+    text-align: center;
+    padding: 10px;
+    border-radius: 25px;
+}
+
+.nav5:hover{
+    color: #ffff;
+    background-color: #8c071b;
 }
