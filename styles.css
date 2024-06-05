@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
 
 *{
-    margin: 0px;
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
     box-shadow: 0px;
     font-family: Nunito, sans-serif;
@@ -9,12 +10,23 @@
 
 nav{
     display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 2rem;
+    box-shadow: 0 1px 2px #d1c9c9;
+    padding: 15px;
+    margin: auto;
+}
+
+a{
+    text-decoration: none;
+}
+
+.nav-links{
+    display: flex;
     justify-content: center;
     align-items: center;
-    gap: 20px;
-    border: solid rgb(192, 179, 179) 1px;
-    position: relative;
-    padding: 15px;
+    gap: 3rem;
 }
 
 .navigation{
@@ -28,12 +40,9 @@ nav{
     color: #E31837;
 }
 
-a span{
-    color: rgb(39, 37, 37);
-}
-
 nav img{
-    width: 80px;
+    max-width: 80px;
+    height: 78.19px;
 }
 
 .nav1{
@@ -42,16 +51,89 @@ nav img{
     align-items: center;
 }
 
+.nav1 span{
+    color: #E31837;
+    font-weight: 200;
+}
+
+.nav4 span{
+    color: rgb(39, 37, 37);
+    font-size: 1.2rem;
+}
+
 .nav5{
     background-color: #E31837;
     color: #ffff;
-    width: 200px;
+    width: 190px;
     text-align: center;
-    padding: 10px;
+    padding: 13px;
     border-radius: 25px;
+    font-size: 16px;
 }
 
 .nav5:hover{
     color: #ffff;
     background-color: #8c071b;
 }
+
+.chicksandwich-deals{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.sandwich{
+    width: 469px;
+    height: 234px;
+}
+
+.chick-text{
+    display: grid;
+}
+
+.chick-text > *{
+    font-weight: 900;
+    color: rgb(40, 30, 30);
+}
+
+.chicksandwich-deals .chick-text h1{
+    width: 469px;
+    font-size: 3rem;
+    margin: 10px 0 10px 0;
+}
+
+.chicksandwich-deals .chick-text h3{
+    width: 469px;
+    font-size: 1.5rem;
+    margin: 15px 0 15px 0;
+}
+
+.chicksandwich-deals .chick-text h6{
+    width: 469px;
+    font-size: 1rem;
+    margin: 10px 0 10px 0;
+}
+
+.chicksandwich-deals .chick-text .order-now{
+    background-color: #E31837;
+    color: #ffff;
+    width: 210px;
+    text-align: center;
+    padding: 13px;
+    border-radius: 25px;
+    font-size: 16px;
+    margin: 10px 0 10px 0;
+}
+
+.chicksandwich-deals .chick-text .order-now:hover{
+    color: #ffff;
+    background-color: #8c071b;
+}
+
+.order-now span{
+    font-size: 1.2rem;
+}
+
