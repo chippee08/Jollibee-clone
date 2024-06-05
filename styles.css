@@ -16,6 +16,9 @@ nav{
     box-shadow: 0 1px 2px #d1c9c9;
     padding: 15px;
     margin: auto;
+    position: sticky;
+    top: 0;
+    background-color: #ffff;
 }
 
 a{
@@ -83,6 +86,7 @@ nav img{
     gap: 5rem;
     margin-top: 5%;
     margin-bottom: 5%;
+    height: 70vh;
 }
 
 .sandwich{
@@ -96,13 +100,14 @@ nav img{
 
 .chick-text > *{
     font-weight: 900;
-    color: rgb(40, 30, 30);
+    color: #281e1e;
 }
 
 .chicksandwich-deals .chick-text h1{
     width: 469px;
     font-size: 3rem;
     margin: 10px 0 10px 0;
+    line-height: 47px;
 }
 
 .chicksandwich-deals .chick-text h3{
@@ -137,3 +142,48 @@ nav img{
     font-size: 1.2rem;
 }
 
+.merch{
+    background-color: #E31837;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5rem;
+}
+
+.merch-text{
+    display: grid;
+    color: #ffff;
+    padding: 112px 0 112px 0;
+}
+
+.merch-text > *{
+    font-weight: 900;
+}
+
+.merch-text h3{
+    font-size: 1.5rem;
+}
+
+.merch-text h2{
+    font-size: 3rem;
+    margin-top: 20px;
+}
+
+.merch-text strong{
+    font-size: 1.5rem;
+}
+
+.merch-text .shop-merch{
+    color: #281e1e;
+    background-color: #EFBB40;
+    text-align: center;
+    width: 190px;
+    text-align: center;
+    padding: 13px;
+    border-radius: 25px;
+}
+
+.shop-merch span{
+    font-size: 1.2rem;
+}
