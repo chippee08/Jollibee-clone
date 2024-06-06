@@ -199,3 +199,35 @@ nav img{
     width: 453px;
 }
 
+.about-jb{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    padding: 80px 0 80px 0;
+}
+
+.about-jb .about-text{
+    display: grid;
+    width: 400px;
+    height: 503px;
+}
+
+.about-text a{
+    text-decoration: underline;
+    color: #E31837;
+}
+
+.about-jb img{
+    width: 503px;
+}
+
+.about-jb h2{
+    font-weight: 900;
+    font-size: 3rem;
+    line-height: 47px;
+}
+
+.about-jb p{
+    line-height: 25px;
+}
