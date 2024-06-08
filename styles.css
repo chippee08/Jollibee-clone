@@ -237,6 +237,10 @@ nav img{
     padding: 80px;
 }
 
+.fave-text{
+    padding: 0 32px 0 32px;
+}
+
 .meal-deal{
     display: flex;
     justify-content: center;
