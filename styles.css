@@ -231,3 +231,20 @@ nav img{
 .about-jb p{
     line-height: 25px;
 }
+
+.jb-fave{
+    display: grid;
+    padding: 80px;
+}
+
+.meal-deal{
+    display: flex;
+}
+
+.meal-deal .card{
+    border: solid black 2px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
