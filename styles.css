@@ -239,12 +239,37 @@ nav img{
 
 .meal-deal{
     display: flex;
-}
-
-.meal-deal .card{
-    border: solid black 2px;
-    display: grid;
     justify-content: center;
     align-items: center;
 }
+
+.card{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    flex: wrap;
+    text-align: center;
+    padding: 0 0 0 32px;
+}
+
+.card a{
+    text-decoration: none;
+    color: black;
+}
+
+.card:hover{
+    color: #E31837;
+}
+
+.card a:hover{
+    color: #E31837;
+}
+
+.meal-deal img{
+    width: 200px;
+}
+
+
+
+
 
