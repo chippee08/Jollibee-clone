@@ -287,5 +287,18 @@ nav img{
     font-weight: 900;
 }
 
+.learn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
 
+.learn .learn-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #2222;
+}
 
