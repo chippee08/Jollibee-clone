@@ -292,6 +292,7 @@ nav img{
     justify-content: center;
     align-items: center;
     gap: 20px;
+    height: 100vh;
 }
 
 .learn .learn-card{
@@ -299,6 +300,26 @@ nav img{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #2222;
+ 
 }
 
+.learn-card .learn-text{
+    text-align: center;
+    background-color: #adafee22;
+    padding: 40px 48px 40px 48px;
+    width: 508px;
+}
+
+.learn-text a{
+    color: white;
+    background-color: #E31837;
+    border-radius: 25px;
+}
+
+.learn-text > *{
+    font-weight: 900;
+}
+
+.learn-card img{
+    width: 508px;
+}
