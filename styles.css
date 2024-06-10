@@ -300,9 +300,7 @@ nav img{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-    border: solid black 2px;
- 
+    align-items: center;    
 }
 
 .learn-card .learn-text{
